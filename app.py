@@ -6,7 +6,7 @@ model = joblib.load('Logistic_Regression_heart.pkl')
 scaler = joblib.load('scaler.pkl')
 expected_columns =joblib.load('columns.pkl')
 
-st.title("Heart Disease Prediction App ")
+st.title("Heart Disease Prediction Model ")
 st.markdown("Provide the following details")
 
 age = st.slider("age",18,100,40)
